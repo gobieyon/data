@@ -1,132 +1,79 @@
-[
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  },
-  {
-    "author": "Noella D. Risley",
-    "videoName": "This is happening",
-    "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
-  },
-  {
-    "author": "Foot Ball",
-    "videoName": "Name",
-    "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
-  }
-]
+{
+    "headerColor": "0xFF01403f",
+    "bodyColor": "0xFF254347",
+    "headerTextColor": "0xFFffffff",
+    "authorTextColor": "0xFFffffff",
+    "videoNameTextColor": "0xFF3ea6ff",
+    "items": [
+        {
+            "author": "Noella D. Risley",
+            "videoName": "This is happening",
+            "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
+        },
+        {
+            "author": "Foot Ball",
+            "videoName": "Name",
+            "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
+        },
+      {
+            "author": "Noella D. Risley",
+            "videoName": "This is happening",
+            "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
+        },
+        {
+            "author": "Foot Ball",
+            "videoName": "Name",
+            "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
+        },
+      {
+            "author": "Noella D. Risley",
+            "videoName": "This is happening",
+            "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
+        },
+        {
+            "author": "Foot Ball",
+            "videoName": "Name",
+            "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
+        },
+      {
+            "author": "Noella D. Risley",
+            "videoName": "This is happening",
+            "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
+        },
+        {
+            "author": "Foot Ball",
+            "videoName": "Name",
+            "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
+        },
+      {
+            "author": "Noella D. Risley",
+            "videoName": "This is happening",
+            "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
+        },
+        {
+            "author": "Foot Ball",
+            "videoName": "Name",
+            "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
+        },
+      {
+            "author": "Noella D. Risley",
+            "videoName": "This is happening",
+            "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
+        },
+        {
+            "author": "Foot Ball",
+            "videoName": "Name",
+            "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
+        },
+      {
+            "author": "Noella D. Risley",
+            "videoName": "This is happening",
+            "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
+        },
+        {
+            "author": "Foot Ball",
+            "videoName": "Name",
+            "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
+        }
+    ]
+}
