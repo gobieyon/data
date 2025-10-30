@@ -1,9 +1,9 @@
 {
-    "headerColor": "01403f",
-    "bodyColor": "254347",
-    "headerTextColor": "939393",
-    "authorTextColor": "D8D8D8",
-    "videoNameTextColor": "3ea6ff",
+    "headerColor": "#01403f",
+    "bodyColor": "#254347",
+    "headerTextColor": "#939393",
+    "authorTextColor": "#d8d8d8",
+    "videoNameTextColor": "#3ea6ff",
     "items": [
         {
             "author": "Noella D. Risley",
