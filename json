@@ -9,9 +9,9 @@
         { "cat": "General" },
         { "cat": "Funny" },
         { "cat": "Relationship" },
-        { "cate": "Communication" },
-        { "cate": "Self\nAwareness" },
-        { "cate": "Social\nAwareness" }
+        { "cat": "Communication" },
+        { "cat": "Self\nAwareness" },
+        { "cat": "Social\nAwareness" }
     ],
     "items": [
         {
