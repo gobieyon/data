@@ -2,9 +2,9 @@
 {
     "headerColor": "#01403f",
     "bodyColor": "#254347",
-    "headerTextColor": "#939393",
-    "authorTextColor": "#d8d8d8",
-    "videoNameTextColor": "#3ea6ff",
+    "detailsTextColor": "#d8d8d8",
+    "descriptionTextColor": "#939393",
+    "linkTextColor": "#3ea6ff",
     "items": [
         {
             "author": "Noella D. Risley",
@@ -332,7 +332,7 @@
         },
         {
             "author": "Seinfeld",
-            "cat": "general",
+            "cat": "",funny
             "videoName": "Katra",
             "link": "https://www.facebook.com/share/v/1AM9ZfvzYF/"
         },
