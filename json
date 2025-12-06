@@ -5,6 +5,7 @@
     "headerTextColor": "#939393",
     "videoNameTextColor": "#3ea6ff",
     "catList": [
+        { "cat": "All" },
         { "cat": "General" },
         { "cat": "Funny" },
         { "cat": "Relationship" },
