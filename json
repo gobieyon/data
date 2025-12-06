@@ -5,13 +5,13 @@
     "headerTextColor": "#939393",
     "videoNameTextColor": "#3ea6ff",
     "catList": [
-        { "cat": "All" },
-        { "cat": "General" },
-        { "cat": "Funny" },
-        { "cat": "Relationship" },
-        { "cat": "Communication" },
-        { "cat": "Self\nAwareness" },
-        { "cat": "Social\nAwareness" }
+        { "cat": "all" },
+        { "cat": "general" },
+        { "cat": "funny" },
+        { "cat": "relationship" },
+        { "cat": "communication" },
+        { "cat": "self" },
+        { "cat": "social" }
     ],
     "items": [
         {
@@ -46,7 +46,7 @@
         },
         {
             "author": "@JenipherTshyvon",
-            "cat": "Funny",
+            "cat": "funny",
             "videoName": "Unwilling",
             "link": "https://www.youtube.com/shorts/0JgCS6C5OVU"
         },
@@ -64,7 +64,7 @@
         },
         {
             "author": "imshawnsutton",
-            "cat": "Funny",
+            "cat": "funny",
             "videoName": "Politics",
             "link": "https://www.tiktok.com/@imshawnsutton/video/7147425290988293419"
         },
@@ -136,7 +136,7 @@
         },
         {
             "author": "Steffie Syr Hibaya Gitalan",
-            "cat": "Funny",
+            "cat": "funny",
             "videoName": "Funny Names",
             "link": "https://www.facebook.com/share/v/1Cu4339scL/"
         },
@@ -340,7 +340,7 @@
         },
         {
             "author": "Seinfeld",
-            "cat": "Funny",
+            "cat": "funny",
             "videoName": "Katra",
             "link": "https://www.facebook.com/share/v/1AM9ZfvzYF/"
         },
