@@ -5,13 +5,13 @@
     "headerTextColor": "#939393",
     "videoNameTextColor": "#3ea6ff",
     "catList": [
-        { "cat": "all" },
-        { "cat": "general" },
-        { "cat": "funny" },
-        { "cat": "relationship" },
-        { "cat": "communication" },
-        { "cat": "self" },
-        { "cat": "social" }
+        { "cat": "all", "label": "All" },
+        { "cat": "general", "label": "General" },
+        { "cat": "funny", "label": "Funny" },
+        { "cat": "relationship", "label": "Relationship" },
+        { "cat": "communication", "label": "Communication" },
+        { "cat": "self", "label": "Self Awareness" },
+        { "cat": "social", "label": "Social Awareness" }
     ],
     "items": [
         {
