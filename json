@@ -11,8 +11,7 @@
         { "cat": "relationship", "label": "Relationship" },
         { "cat": "communication", "label": "Communication" },
         { "cat": "self", "label": "Self Awareness" },
-        { "cat": "others", "label": "Social Awareness" },
-        { "cat": "world", "label": "World Awareness" }
+        { "cat": "others", "label": "Social Awareness" }
     ],
     "items": [
         {
