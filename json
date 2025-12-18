@@ -4,12 +4,14 @@
     "authorTextColor": "#d8d8d8",
     "headerTextColor": "#939393",
     "videoNameTextColor": "#3ea6ff",
-    "baseFacebook": "https://www.facebook.com/reel/",
-    "baseInstagram": "https://www.instagram.com/reel/",
-    "baseTikTok": "https://www.tiktok.com/@{username}/video/",
-    "baseYouTubeShorts": "https://www.youtube.com/shorts/",
-    "baseYouTubeWatch": "https://www.youtube.com/watch?v=",
-    "basePinterest": "https://www.pinterest.com/pin/"
+    "baseUrls": {
+        "facebook": "https://www.facebook.com/reel/",
+        "instagram": "https://www.instagram.com/reel/",
+        "tiktok": "https://www.tiktok.com/@{username}/video/",
+        "youtubeShorts": "https://www.youtube.com/shorts/",
+        "youtubeWatch": "https://www.youtube.com/watch?v=",
+        "pinterest": "https://www.pinterest.com/pin/"
+    },
     "catList": [
         { "cat": "all", "label": "All" },
         { "cat": "general", "label": "General" },
