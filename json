@@ -19,7 +19,7 @@
         {
             "author": "Noella D. Risley",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "instagram",
             "videoName": "This is happening",
             "videoFilter": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6",
             "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
@@ -27,7 +27,7 @@
         {
             "author": "Lynn Wilson",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "facebook",
             "videoName": "Footboll",
             "videoFilter": "1035102855366629",
             "link": "https://www.facebook.com/share/r/19nSRUsHM1/"
@@ -35,7 +35,7 @@
         {
             "author": "Teal Swan",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "facebook",
             "videoName": "Demons",
             "videoFilter": "https://www.facebook.com/share/r/17fENiQgVP/",
             "link": "https://www.facebook.com/share/r/17fENiQgVP/"
@@ -43,7 +43,7 @@
         {
             "author": "@786everythingispossible",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "youtube",
             "videoName": "Act happy",
             "videoFilter": "",
             "link": "https://www.youtube.com/shorts/2HhA0OnCQDc"
@@ -51,7 +51,7 @@
         {
             "author": "@VictoryThink",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Favored",
             "videoFilter": "",
             "link": "https://www.youtube.com/shorts/ykZ6Xg2FU9g"
@@ -59,7 +59,7 @@
         {
             "author": "@JenipherTshyvon",
             "cat": "funny",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Unwilling",
             "videoFilter": "",
             "link": "https://www.youtube.com/shorts/0JgCS6C5OVU"
@@ -67,7 +67,7 @@
         {
             "author": "Shyy Sachdev",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Moving",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1CtgJTEjfn/"
@@ -75,7 +75,7 @@
         {
             "author": "realprinceea",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Language",
             "videoFilter": "",
             "link": "https://www.tiktok.com/@realprinceea/video/7312898108323663150"
@@ -83,7 +83,7 @@
         {
             "author": "imshawnsutton",
             "cat": "funny",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Politics",
             "videoFilter": "",
             "link": "https://www.tiktok.com/@imshawnsutton/video/7147425290988293419"
@@ -91,7 +91,7 @@
         {
             "author": "@karlniilo2420",
             "cat": "others",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Opinion",
             "videoFilter": "",
             "link": "https://www.youtube.com/shorts/MXs_H27_KQQ"
@@ -99,7 +99,7 @@
         {
             "author": "awarenessocieny",
             "cat": "others",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Can't heal toxic",
             "videoFilter": "",
             "link": "https://www.tiktok.com/@awarenessociety/video/7569317822250142990"
@@ -107,7 +107,7 @@
         {
             "author": "Danny Morel",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "The system",
             "videoFilter": "",
             "link": "https://www.youtube.com/watch?v=G-gNjS51QEc"
@@ -115,7 +115,7 @@
         {
             "author": "Cole Jennette",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Care What People Think",
             "videoFilter": "",
             "link": "https://www.facebook.com/reel/8411547935616684/?sfnsn=wa&mibextid=6AJuK9"
@@ -123,7 +123,7 @@
         {
             "author": "UpscaleYourLife@XXI",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "A Giver",
             "videoFilter": "",
             "link": "https://www.youtube.com/watch?v=0nrz3ZAl750&list=PLgoQ4xcmfPWYtSAy35TUQ3fyLszq_CLn2&index=2"
@@ -131,7 +131,7 @@
         {
             "author": "Advice from celebrities",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "MrBeast",
             "videoFilter": "",
             "link": "https://www.youtube.com/watch?v=fcTWVGMB1sE&list=PLgoQ4xcmfPWYtSAy35TUQ3fyLszq_CLn2&index=3"
@@ -139,7 +139,7 @@
         {
             "author": "The Millioniare Habits",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Cliff Top",
             "videoFilter": "",
             "link": "https://www.youtube.com/watch?v=l6D59p-wQIE&list=PLgoQ4xcmfPWYtSAy35TUQ3fyLszq_CLn2&index=12"
@@ -147,7 +147,7 @@
         {
             "author": "Asrah",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Think easy",
             "videoFilter": "",
             "link": "https://www.pinterest.com/pin/70437488146608/"
@@ -155,7 +155,7 @@
         {
             "author": "Ignite Your Growth-16f",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Says Feel",
             "videoFilter": "",
             "link": "https://www.youtube.com/watch?v=K9zbhgj80XM&list=PLgoQ4xcmfPWYtSAy35TUQ3fyLszq_CLn2&index=20"
@@ -163,7 +163,7 @@
         {
             "author": "Cole Jennette",
             "cat": "communication",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "What You Say",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/16QJHrTdoG/"
@@ -171,7 +171,7 @@
         {
             "author": "@hustlereality",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Deepest Fear",
             "videoFilter": "",
             "link": "https://www.youtube.com/shorts/aGDedhWIJ3g?si=D7lN0ejdJL48XxWw"
@@ -179,7 +179,7 @@
         {
             "author": "Steffie Syr Hibaya Gitalan",
             "cat": "funny",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Funny Names",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1Cu4339scL/"
@@ -187,7 +187,7 @@
         {
             "author": "afonis_bjomson",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Nothing To Lose",
             "videoFilter": "",
             "link": "https://www.facebook.com/reel/1865324130994035?mibextid=9drbnH&s=yWDuG2&fs=e"
@@ -195,7 +195,7 @@
         {
             "author": "@ResearcherHub168",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "People Change",
             "videoFilter": "",
             "link": "https://www.youtube.com/shorts/_Zms9CMeXfQ"
@@ -203,7 +203,7 @@
         {
             "author": "theaspenleaf",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Ominous positivity",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1AoJ8qLNn9/"
@@ -211,7 +211,7 @@
         {
             "author": "MotivaMentum",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "It's simple",
             "videoFilter": "",
             "link": "https://www.youtube.com/watch?v=sMwy3YtEQxs"
@@ -219,7 +219,7 @@
         {
             "author": "@thelearningsoflife9905",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Still love",
             "videoFilter": "",
             "link": "https://www.youtube.com/shorts/fD85zRbp_Qw"
@@ -227,7 +227,7 @@
         {
             "author": "Robdial",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Mind search",
             "videoFilter": "",
             "link": "https://www.tiktok.com/@robdial/video/7235752778050637099"
@@ -235,7 +235,7 @@
         {
             "author": "Robert - HumorPoint",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Laugh",
             "videoFilter": "",
             "link": "https://www.youtube.com/watch?v=Ezt8wMsyZgY"
@@ -243,7 +243,7 @@
         {
             "author": "BILLIONAIRE THRONE",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Crazy",
             "videoFilter": "",
             "link": "https://www.youtube.com/watch?v=kgJ1-LtMSJ4"
@@ -251,7 +251,7 @@
         {
             "author": "willspeak",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Know you",
             "videoFilter": "",
             "link": "https://www.tiktok.com/@willspeak/video/7186152538092195114"
@@ -259,7 +259,7 @@
         {
             "author": "Disrupters",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Seals",
              "videoFilter": "",
             "link": "https://www.youtube.com/watch?v=KixwLXO6GXc"
@@ -267,7 +267,7 @@
         {
             "author": "diceup86",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "School",
             "videoFilter": "",
             "link": "https://www.tiktok.com/@diceup86/video/7560403643095174417"
@@ -275,7 +275,7 @@
         {
             "author": "goated.quotes",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "92bpm",
             "videoFilter": "",
             "link": "https://www.tiktok.com/@goated.quotes/video/7406387547632323872"
@@ -283,7 +283,7 @@
         {
             "author": "Life Quotes",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Next move",
             "videoFilter": "",
             "link": "https://www.facebook.com/watch/?v=2923205644599406"
@@ -291,7 +291,7 @@
         {
             "author": "soulr.co",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Play",
             "videoFilter": "",
             "link": "https://www.tiktok.com/@soulr.co/video/7350504456745651499"
@@ -299,7 +299,7 @@
         {
             "author": "Chelsko",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Accept any",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/17pmCtaU36/"
@@ -307,7 +307,7 @@
         {
             "author": "Rising Wolf",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Bank account",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1DFtAzasta/"
@@ -315,7 +315,7 @@
         {
             "author": "Author Jason K Pargin",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Most rules",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1HyAAabfRG/"
@@ -323,7 +323,7 @@
         {
             "author": "Eckhart Tolle",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "The now",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1EWik8V7Yf/"
@@ -331,7 +331,7 @@
         {
             "author": "The Minimalistis",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Not needing",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1Aju7ZQrNf/"
@@ -339,7 +339,7 @@
         {
             "author": "Areallygoodcry",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "2 questions",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1EpqqXtpLB/"
@@ -347,7 +347,7 @@
         {
             "author": "Peter Crone",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Catalyst",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1WwHWWdV8a/"
@@ -355,7 +355,7 @@
         {
             "author": "Crystal Gunn",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Polarity",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1CwcrsYz72/"
@@ -363,7 +363,7 @@
         {
             "author": "MindPsy Guidance",
             "cat": "self",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Impacts every",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/14R2ex4fKoo/"
@@ -371,7 +371,7 @@
         {
             "author": "bhawsheel_audition",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Courage after",
             "videoFilter": "",
             "link": "https://www.instagram.com/reel/C47K2hfohOY/?igsh=Ynd3N3l0ZjAzamh4"
@@ -379,7 +379,7 @@
         {
             "author": "Thediaryofaceocards",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Disliked",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1AFb6P1Waf/"
@@ -387,7 +387,7 @@
         {
             "author": "Lynba Leads",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Boss train",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/16fH885hF1/"
@@ -395,7 +395,7 @@
         {
             "author": "Elite Recruiter",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Confidence vs ego",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1Z2wzedKh9/"
@@ -403,7 +403,7 @@
         {
             "author": "Embracing Joy Psychotherapy",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Securely",
             "videoFilter": "",
             "link": "https://www.facebook.com/reel/849069547611735/?mibextid=9drbnH"
@@ -411,7 +411,7 @@
         {
             "author": "Too much",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Self Attention",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1WzVAFsKZ6/"
@@ -419,7 +419,7 @@
         {
             "author": "Chase Hughes",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "No shame",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1Mcy4PQTJS/"
@@ -427,7 +427,7 @@
         {
             "author": "Scott D Clary",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Do less",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1F36Hrndqu/"
@@ -435,7 +435,7 @@
         {
             "author": "The Minimalists",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Scam",
             "videoFilter": "",
             "link": "https://www.facebook.com/reel/1222230079665389/?mibextid=9drbnH"
@@ -443,7 +443,7 @@
         {
             "author": "sarah.elizabeth.hyde",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Or nothing",
             "videoFilter": "",
             "link": "https://www.instagram.com/reel/DQVIp03gERr/?igsh=MWRzMHBoMjU3YndndA=="
@@ -451,7 +451,7 @@
         {
             "author": "Seinfeld",
             "cat": "funny",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Katra",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1AM9ZfvzYF/"
@@ -459,7 +459,7 @@
         {
             "author": "Reclaiming Melissa",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Do for you",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/16eAGWoUNn/"
@@ -467,7 +467,7 @@
         {
             "author": "Rob Moore Disruptors",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Do Small",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1FYWLvBkCz/"
@@ -475,7 +475,7 @@
         {
             "author": "Thespottedzeda",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Certainty",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1BYPF6bZbu/"
@@ -483,7 +483,7 @@
         {
             "author": "Teal Swan",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Feminine nature",
              "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1CXJtakssP/"
@@ -491,7 +491,7 @@
         {
             "author": "Talynted",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Gratefulness",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/17R54AQkpG/"
@@ -499,7 +499,7 @@
         {
             "author": "Mark Manson",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Hate",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1FEwCeVd9g/"
@@ -507,7 +507,7 @@
         {
             "author": "Embracing Joy Psychotherapy",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Feel",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/17RTSfkNgY/"
@@ -515,7 +515,7 @@
         {
             "author": "Twinkle Glow Guide",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Accept",
             "videoFilter": "",
             "link": "https://www.facebook.com/reel/835640386086522/?mibextid=9drbnH&s=yWDuG2&fs=e"
@@ -523,7 +523,7 @@
         {
             "author": "Freelancer Equalizer",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Knowledge",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/16UEJG5Jfz/"
@@ -531,7 +531,7 @@
         {
             "author": "garyvee",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Losing is fun",
             "videoFilter": "",
             "link": "https://www.facebook.com/reel/1237653794839655"
@@ -539,7 +539,7 @@
         {
             "author": "Rising Wolf",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "What in the",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1ZBYFvan3z/"
@@ -547,7 +547,7 @@
         {
             "author": "Left Sleeve",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Listnen with triggers",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/16cSRa1wPY/"
@@ -555,7 +555,7 @@
          {
             "author": "Cole Jennette",
              "cat": "communication",
-             "socialMedia": "",
+             "platform": "",
             "videoName": "Listen point",
              "videoFilter": "",
             "link": "https://www.facebook.com/share/r/17fMHAzXRB/"
@@ -563,7 +563,7 @@
         {
             "author": "Alissa Nobriga",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Feeling safe",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/17pXBgvYpZ/"
@@ -571,7 +571,7 @@
         {
             "author": "Justmonique91",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Hear shade",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1AP4o5g8yY/"
@@ -579,7 +579,7 @@
         {
             "author": "Char Char",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Hard to deal",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1DLtHrcRyQ/"
@@ -587,7 +587,7 @@
         {
             "author": "Marcius_Van",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "No fear",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/17RgWVa8hs/"
@@ -595,7 +595,7 @@
         {
             "author": "Dean Graziosi",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "One life",
              "videoFilter": "",
             "link": "https://www.facebook.com/share/r/14PEzWTj9ft/"
@@ -603,7 +603,7 @@
         {
             "author": "Emily Mcdonald",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Rush",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1A8BMaHktD/"
@@ -611,7 +611,7 @@
         {
             "author": "Mitch Mullins",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Perception",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/15tT8YGyFF/"
@@ -619,7 +619,7 @@
         {
             "author": "My Emotional Support Animal",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Rest",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1Bj86tC13X/"
@@ -627,7 +627,7 @@
         {
             "author": "The Grocer's Daughter",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Set of the sail",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/19WwfnRvA7/"
@@ -635,7 +635,7 @@
         {
             "author": "earthvisualhub",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Not Exciting",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1BHbvzjtrt/"
@@ -643,7 +643,7 @@
         {
             "author": "Chris Williamson",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Simple things",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/16dhpwRjUJ/"
@@ -651,7 +651,7 @@
         {
             "author": "Styx River",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Spiritual intervention",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1FxHXW8uJ9/"
@@ -659,7 +659,7 @@
         {
             "author": "Devin Linder",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Small wins",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1A9L95T8Pd/"
@@ -667,7 +667,7 @@
         {
             "author": "Gary Vaynerchuk",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "You're the algorithm",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1AYxazUnKx/"
@@ -675,7 +675,7 @@
         {
             "author": "adonis_bjornson",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Vision on you",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1FgoGGhgpM/"
@@ -683,7 +683,7 @@
         {
             "author": "Brian M. Sabourin",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Surrender to it",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1DTM8pCgXX/"
@@ -691,7 +691,7 @@
         {
             "author": "Devin Linder",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Therapy expectations",
              "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1Gr14Druzb/"
@@ -699,7 +699,7 @@
         {
             "author": "Jay Shetty",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Will want",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1Z9Y7ricpc/"
@@ -707,7 +707,7 @@
         {
             "author": "The Reckoning Co",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "You're the prize",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1BJ2a4DjgD/"
@@ -715,7 +715,7 @@
         {
             "author": "Human Workplace",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Intelligence",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1CSb5CEiQV/"
@@ -723,7 +723,7 @@
         {
             "author": "Josh Terry",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Religions",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1FrckLZyoe/"
@@ -731,7 +731,7 @@
         {
             "author": "Josh Terry",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Thoughts",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1Ac9UBu6oo/"
@@ -739,7 +739,7 @@
         {
             "author": "Areallygoodcry",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Useful",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/14XbesEMgMj/"
@@ -747,7 +747,7 @@
         {
             "author": "Left Sleeve",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "See worth",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/17faJG4ZYx/"
@@ -755,7 +755,7 @@
         {
             "author": "Snarlycarly",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Mental labour",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1JTTpGRvmN/"
@@ -763,7 +763,7 @@
         {
             "author": "Joe Drummer Boy",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Wife smile",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1J3HaHiobd/"
@@ -771,7 +771,7 @@
         {
             "author": "Jared Seay",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Obsess",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/19Na3UAnwj/"
@@ -779,7 +779,7 @@
         {
             "author": "ZACH BUSH MD",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "All is sacred",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1FyYxbPwcA/"
@@ -787,7 +787,7 @@
         {
             "author": "Jillian Turecki",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "A life",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/17H6uer39e/"
@@ -795,7 +795,7 @@
         {
             "author": "Jose M. Paz",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Gratitude",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1BKekwiVHR/"
@@ -803,7 +803,7 @@
         {
             "author": "Reclaiming Melissa",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "The want",
              "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1ARuitEmpX/"
@@ -811,7 +811,7 @@
         {
             "author": "Chris Williamson",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Distract with meaning",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/19MheZG8o1/"
@@ -819,7 +819,7 @@
         {
             "author": "Joel Bervell",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Attribution error",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1Aph3GQYo6/"
@@ -827,7 +827,7 @@
         {
             "author": "Lorraine Wells",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Own your stuff",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/1BwjfqYCib/"
@@ -835,7 +835,7 @@
         {
             "author": "No Filter Philosophy",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Chronically defensive",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/16REsfgFas/"
@@ -843,7 +843,7 @@
         {
             "author": "Igor Kryan",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Debt is control",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1BsroVRHsX/"
@@ -851,7 +851,7 @@
         {
             "author": "Styx River",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Perception",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/r/17RtYPxPyP/"
@@ -859,7 +859,7 @@
         {
             "author": "Chris Williamson",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Old costume",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/14ZHX3aKiLy/"
@@ -867,7 +867,7 @@
         {
             "author": "No Filter Philosophy",
             "cat": "general",
-            "socialMedia": "",
+            "platform": "",
             "videoName": "Brain edit",
             "videoFilter": "",
             "link": "https://www.facebook.com/share/v/1FXx23kEp2/"
