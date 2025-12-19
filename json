@@ -28,7 +28,7 @@
             "cat": "general",
             "platform": "instagram",
             "videoName": "This is happening",
-            "videoId": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6",
+            "videoId": "DNvynNBXqdW,
             "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
         },
         {
@@ -50,7 +50,7 @@
         {
             "author": "@786everythingispossible",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeShorts",
             "videoName": "Act happy",
             "videoId": "",
             "link": "https://www.youtube.com/shorts/2HhA0OnCQDc"
@@ -58,7 +58,7 @@
         {
             "author": "@VictoryThink",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeShorts",
             "videoName": "Favored",
             "videoId": "",
             "link": "https://www.youtube.com/shorts/ykZ6Xg2FU9g"
@@ -66,7 +66,7 @@
         {
             "author": "@JenipherTshyvon",
             "cat": "funny",
-            "platform": "youtube",
+            "platform": "youtubeShorts",
             "videoName": "Unwilling",
             "videoId": "",
             "link": "https://www.youtube.com/shorts/0JgCS6C5OVU"
@@ -98,7 +98,7 @@
         {
             "author": "@karlniilo2420",
             "cat": "others",
-            "platform": "youtube",
+            "platform": "youtubeShorts",
             "videoName": "Opinion",
             "videoId": "",
             "link": "https://www.youtube.com/shorts/MXs_H27_KQQ"
@@ -114,7 +114,7 @@
         {
             "author": "Danny Morel",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeWatch",
             "videoName": "The system",
             "videoId": "",
             "link": "https://www.youtube.com/watch?v=G-gNjS51QEc"
@@ -130,7 +130,7 @@
         {
             "author": "UpscaleYourLife@XXI",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeWatch",
             "videoName": "A Giver",
             "videoId": "",
             "link": "https://www.youtube.com/watch?v=0nrz3ZAl750&list=PLgoQ4xcmfPWYtSAy35TUQ3fyLszq_CLn2&index=2"
@@ -138,7 +138,7 @@
         {
             "author": "Advice from celebrities",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeWatch",
             "videoName": "MrBeast",
             "videoId": "",
             "link": "https://www.youtube.com/watch?v=fcTWVGMB1sE&list=PLgoQ4xcmfPWYtSAy35TUQ3fyLszq_CLn2&index=3"
@@ -146,7 +146,7 @@
         {
             "author": "The Millioniare Habits",
             "cat": "general",
-            "platform": "",
+            "platform": "youtubeWatch",
             "videoName": "Cliff Top",
             "videoId": "",
             "link": "https://www.youtube.com/watch?v=l6D59p-wQIE&list=PLgoQ4xcmfPWYtSAy35TUQ3fyLszq_CLn2&index=12"
@@ -162,7 +162,7 @@
         {
             "author": "Ignite Your Growth-16f",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeWatch",
             "videoName": "Says Feel",
             "videoId": "",
             "link": "https://www.youtube.com/watch?v=K9zbhgj80XM&list=PLgoQ4xcmfPWYtSAy35TUQ3fyLszq_CLn2&index=20"
@@ -178,7 +178,7 @@
         {
             "author": "@hustlereality",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeShorts",
             "videoName": "Deepest Fear",
             "videoId": "",
             "link": "https://www.youtube.com/shorts/aGDedhWIJ3g?si=D7lN0ejdJL48XxWw"
@@ -202,7 +202,7 @@
         {
             "author": "@ResearcherHub168",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeShorts",
             "videoName": "People Change",
             "videoId": "",
             "link": "https://www.youtube.com/shorts/_Zms9CMeXfQ"
@@ -218,7 +218,7 @@
         {
             "author": "MotivaMentum",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeWatch",
             "videoName": "It's simple",
             "videoId": "",
             "link": "https://www.youtube.com/watch?v=sMwy3YtEQxs"
@@ -226,7 +226,7 @@
         {
             "author": "@thelearningsoflife9905",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeShorts",
             "videoName": "Still love",
             "videoId": "",
             "link": "https://www.youtube.com/shorts/fD85zRbp_Qw"
@@ -242,7 +242,7 @@
         {
             "author": "Robert - HumorPoint",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeWatch",
             "videoName": "Laugh",
             "videoId": "",
             "link": "https://www.youtube.com/watch?v=Ezt8wMsyZgY"
@@ -250,7 +250,7 @@
         {
             "author": "BILLIONAIRE THRONE",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeWatch",
             "videoName": "Crazy",
             "videoId": "",
             "link": "https://www.youtube.com/watch?v=kgJ1-LtMSJ4"
@@ -266,7 +266,7 @@
         {
             "author": "Disrupters",
             "cat": "general",
-            "platform": "youtube",
+            "platform": "youtubeWatch",
             "videoName": "Seals",
              "videoId": "",
             "link": "https://www.youtube.com/watch?v=KixwLXO6GXc"
