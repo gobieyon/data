@@ -23,8 +23,15 @@
         { "cat": "world", "label": "World Awareness" } 
     ],
     "items": [
-
-
+      
+        {
+            "author": "findinganochi",
+            "cat": "self",
+            "platform": "instagram",
+            "videoName": "Let feeling flow",
+            "videoId": "DS0uoubEZLq",
+            "link": "https://www.instagram.com/reel/DS0uoubEZLq/"
+        },
         {
             "author": "kencolman",
             "cat": "others",
