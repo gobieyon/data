@@ -24,11 +24,12 @@
     ],
     "items": [
 
+
         {
             "author": "Lewis Howes",
             "cat": "relationship",
-            "platform": "instagram",
-            "videoName": "Types of players",
+            "platform": "facebook",
+            "videoName": "Fighting for",
             "videoId": "713856761761793",
             "link": "https://www.facebook.com/reel/713856761761793"
         },
@@ -466,14 +467,6 @@
             "videoName": "Feelings cause",
             "videoId": "870309138660690",
             "link": "https://www.facebook.com/reel/870309138660690"
-        },
-        {
-            "author": "Lewis Howes",
-            "cat": "general",
-            "platform": "facebook",
-            "videoName": "Fighting for",
-            "videoId": "713856761761793",
-            "link": "https://www.facebook.com/reel/713856761761793"
         },
         {
             "author": "The MIT monk",
