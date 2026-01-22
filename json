@@ -24,12 +24,20 @@
     ],
     "items": [
         {
+            "author": "simplifying.sam",
+            "cat": "self",
+            "platform": "instagram",
+            "videoName": "Inbound feelings",
+            "videoId": "DCZ5h06TuB4",
+            "link": "https://www.instagram.com/reel/DCZ5h06TuB4/"
+        },
+        {
             "author": "Noella D. Risley",
             "cat": "world",
             "platform": "instagram",
             "videoName": "This is happening",
             "videoId": "DNvynNBXqdW",
-            "link": "https://www.instagram.com/reel/DNvynNBXqdW/?igsh=dGpiY2hsem0xeHV6"
+            "link": "https://www.instagram.com/reel/DNvynNBXqdW/"
         },
          {
             "author": "Teal Swan",
@@ -57,6 +65,7 @@
         },
 
         
+        
         {
             "author": "olufolahanmi",
             "cat": "general",
@@ -64,14 +73,6 @@
             "videoName": "Give me a sign",
             "videoId": "7507338546076814598",
             "link": "https://www.tiktok.com/@olufolahanmi/video/7507338546076814598"
-        },
-        {
-            "author": "simplifying.sam",
-            "cat": "self",
-            "platform": "instagram",
-            "videoName": "Inbound feelings",
-            "videoId": "DCZ5h06TuB4",
-            "link": "https://www.instagram.com/reel/DCZ5h06TuB4/"
         },
         {
             "author": "olufolahanmi",
