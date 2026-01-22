@@ -24,7 +24,14 @@
     ],
     "items": [
 
-
+        {
+            "author": "Lewis Howes",
+            "cat": "relationship",
+            "platform": "instagram",
+            "videoName": "Types of players",
+            "videoId": "713856761761793",
+            "link": "https://www.facebook.com/reel/713856761761793"
+        },
         {
             "author": "success.mindset.impact",
             "cat": "self",
