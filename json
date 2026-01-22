@@ -25,6 +25,22 @@
     "items": [
 
         {
+            "author": "nchls_b",
+            "cat": "general",
+            "platform": "facebook",
+            "videoName": "Projects",
+            "videoId": "1361377741509405",
+            "link": "https://www.facebook.com/reel/1361377741509405"
+        },
+        {
+            "author": "Paul Carrick Brunson",
+            "cat": "relationship",
+            "platform": "facebook",
+            "videoName": "Hold space",
+            "videoId": "713246044804105",
+            "link": "https://www.facebook.com/reel/713246044804105"
+        },
+        {
             "author": "The Mindset Mentor Podcast",
             "cat": "self",
             "platform": "facebook",
@@ -32,7 +48,6 @@
             "videoId": "3694484574021398",
             "link": "https://www.facebook.com/reel/3694484574021398"
         },
-
         {
             "author": "Lewis Howes",
             "cat": "relationship",
@@ -98,14 +113,6 @@
             "link": "https://www.instagram.com/reel/CzqoGIKu_IE/"
         },
         {
-            "author": "nchls_b",
-            "cat": "general",
-            "platform": "facebook",
-            "videoName": "Projects",
-            "videoId": "1361377741509405",
-            "link": "https://www.facebook.com/reel/1361377741509405"
-        },
-        {
             "author": "simplifying.sam",
             "cat": "self",
             "platform": "instagram",
@@ -145,6 +152,8 @@
             "videoId": "DSEH6XvkRjz",
             "link": "https://www.instagram.com/reel/DSEH6XvkRjz/"
         },
+
+
 
         
         
