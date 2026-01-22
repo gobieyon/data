@@ -23,7 +23,17 @@
         { "cat": "world", "label": "World Awareness" } 
     ],
     "items": [
-         {
+        
+        
+        {
+            "author": "jayshettypodcast",
+            "cat": "self",
+            "platform": "instagram",
+            "videoName": "Feel everything",
+            "videoId": "CzqoGIKu_IE",
+            "link": "https://www.instagram.com/reel/CzqoGIKu_IE/"
+        },
+        {
             "author": "nchls_b",
             "cat": "general",
             "platform": "facebook",
