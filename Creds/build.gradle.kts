@@ -1,0 +1,22 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.compose) apply false
+}
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.13.1")
+    }
+}
+
+extra["signing.storeFilePath"] = "signing/creds.keystore"
+extra["signing.storePassword"] = "cc101082"
+extra["signing.keyAlias"] = "cc101082"
+extra["signing.keyPassword"] = "cc101082"
+
