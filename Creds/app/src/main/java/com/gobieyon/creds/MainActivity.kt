@@ -82,14 +82,25 @@ class MainActivity : ComponentActivity() {
                 var creds by remember { mutableStateOf<Creds?>(null) }
 
                 LaunchedEffect(Unit) {
-                    val url = "https://raw.githubusercontent.com/gobieyon/data/main/json"
+                    val primaryUrl = "https://raw.githubusercontent.com/gobieyon/data/main/json.json"
+                    val fallbackUrl = "https://raw.githubusercontent.com/gobieyon/data/main/json"
+
                     try {
-                        val json = withContext(Dispatchers.IO) { URL(url).readText() }
+                        val json = withContext(Dispatchers.IO) {
+                            try {
+                                URL(primaryUrl).readText()
+                            } catch (e: Exception) {
+                                URL(fallbackUrl).readText()
+                            }
+                        }
                         creds = Gson().fromJson(json, Creds::class.java)
                     } catch (e: Exception) {
-                        Toast.makeText(this@MainActivity, "can't loading data", Toast.LENGTH_SHORT).show()
+                        withContext(Dispatchers.Main) {
+                            Toast.makeText(this@MainActivity, "Can't load data", Toast.LENGTH_SHORT).show()
+                        }
                     }
                 }
+
 
 
                 creds?.let { data ->
