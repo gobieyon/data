@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -16,6 +17,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -38,7 +40,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalUriHandler
@@ -57,12 +58,17 @@ import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.*
 import androidx.compose.runtime.SideEffect
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.core.view.WindowInsetsControllerCompat
 import coil.compose.AsyncImage
@@ -189,196 +195,148 @@ fun Page(
                 .weight(1f)
                 .fillMaxWidth()
                 .background(creds.bodyColor.toColor()),
-            contentPadding = PaddingValues(vertical = 8.dp)
+            contentPadding = PaddingValues(vertical = 0.dp)
         ) {
             itemsIndexed(searchedItems) { _, item ->
                 val uriHandler = LocalUriHandler.current
 
                 if (item.author.isNotBlank()) {
-                    Column(
+                    Box(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(horizontal = 8.dp, vertical = 8.dp)
+                            .padding(start = 8.dp, top = 0.dp, bottom = 0.dp),
+                            contentAlignment = Alignment.Center
                     ) {
-
-                        Text(
-                            text = item.platform,
-                            fontSize = 17.sp,
-                            fontWeight = FontWeight.Normal,
-                            color = creds.headerTextColor.toColor(),
-                        )
-
-                        if (item.platform.contains("youtube")) {
-                            AsyncImage(
-                                model = "https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg",
-                                contentDescription = null,
-                                contentScale = ContentScale.Crop,
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .height(200.dp)
-                            )
-                        }
-
-                        if (item.platform.contains("instagram")) {
-                            AsyncImage(
-                                model = "https://www.instagram.com/p/${item.videoId}/media/?size=l",
-                                contentDescription = null,
-                                contentScale = ContentScale.Crop,
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .height(200.dp)
-                            )
-                        }
-
-                        LazyColumn(
+                        Column(
                             modifier = Modifier
-                                .weight(1f)
                                 .fillMaxWidth()
-                                .background(creds.bodyColor.toColor()),
-                            contentPadding = PaddingValues(vertical = 8.dp)
                         ) {
-                            itemsIndexed(searchedItems) { _, item ->
+
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween,
+                                verticalAlignment = Alignment.Top
+                            ) {
 
                                 Column(
                                     modifier = Modifier
-                                        .fillMaxWidth()
-                                        .padding(horizontal = 8.dp, vertical = 8.dp)
+                                        .weight(1f),
+                                    verticalArrangement = Arrangement.Top
                                 ) {
+                                    Text(
+                                        text = "Found on page",
+                                        fontSize = 14.sp,
+                                        fontWeight = FontWeight.Medium,
+                                        color = creds.authorTextColor.toColor(),
+                                    )
 
+                                    Text(
+                                        text = item.platform,
+                                        fontSize = 12.sp,
+                                        fontWeight = FontWeight.Medium,
+                                        color = creds.headerTextColor.toColor(),
+                                    )
 
+                                    Text(
+                                        text = item.author,
+                                        fontSize = 12.sp,
+                                        fontWeight = FontWeight.Normal,
+                                        color = creds.headerTextColor.toColor(),
+                                    )
 
-                                    if (item.platform.contains("youtube")) {
-                                        AsyncImage(
-                                            model = "https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg",
+                                    Text(
+                                        text = item.videoName,
+                                        fontSize = 12.sp,
+                                        fontWeight = FontWeight.Normal,
+                                        color = creds.headerTextColor.toColor(),
+                                        textAlign = TextAlign.Center,
+                                    )
+
+                                    Text(
+                                        text = creds.catList
+                                            .firstOrNull { it.cat == item.cat }
+                                            ?.label ?: item.cat,
+                                        fontSize = 12.sp,
+                                        fontWeight = FontWeight.Normal,
+                                        color = creds.headerTextColor.toColor(),
+                                    )
+
+                                }
+
+                                if (item.platform.contains("instagram")) {
+                                    AsyncImage(
+                                        model = "https://www.instagram.com/p/${item.videoId}/media/?size=l",
+                                        contentDescription = null,
+                                        contentScale = ContentScale.Crop,
+                                        modifier = Modifier
+                                            .height(200.dp)
+                                            .aspectRatio(9f / 16f)
+                                    )
+                                } else if (item.platform.contains("youtube")) {
+                                    AsyncImage(
+                                        model = "https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg",
+                                        contentDescription = null,
+                                        contentScale = ContentScale.Crop,
+                                        modifier = Modifier
+                                            .height(200.dp)
+                                            .aspectRatio(9f / 16f)
+                                    )
+                                } else {
+                                    Box(
+                                        contentAlignment = Alignment.Center,
+                                        modifier = Modifier
+                                            .height(200.dp)
+                                            .aspectRatio(9f / 16f)
+                                            .background(creds.headerColor.toColor())
+                                    ) {
+                                        Image(
+                                            painter = painterResource(id = R.drawable.ic_broken_img),
                                             contentDescription = null,
-                                            contentScale = ContentScale.Crop,
-                                            modifier = Modifier
-                                                .fillMaxWidth()
-                                                .height(200.dp)
-                                        )
-                                    }
-
-
-                                    if (item.platform.contains("instagram")) {
-                                        AsyncImage(
-                                            model = "https://www.instagram.com/p/${item.videoId}/media/?size=l",
-                                            contentDescription = null,
-                                            contentScale = ContentScale.Crop,
-                                            modifier = Modifier
-                                                .fillMaxWidth()
-                                                .height(200.dp)
-                                        )
-                                    }
-
-
-                                    if (item.platform.contains("facebook")) {
-                                        AsyncImage(
-                                            model = "https://graph.facebook.com/${item.videoId}/picture",
-                                            contentDescription = null,
-                                            contentScale = ContentScale.Crop,
-                                            modifier = Modifier
-                                                .fillMaxWidth()
-                                                .height(200.dp)
+                                            contentScale = ContentScale.Fit,
+                                            colorFilter = ColorFilter.tint(creds.headerTextColor.toColor()),
+                                            modifier = Modifier.fillMaxSize()
                                         )
                                     }
                                 }
+
+
+//                                    if (item.platform.contains("facebook")) {
+//                                        AsyncImage(
+//                                            model = "https://graph.facebook.com/${item.videoId}/picture",
+//                                            contentDescription = null,
+//                                            contentScale = ContentScale.Crop,
+//                                            modifier = Modifier
+//                                                .fillMaxWidth()
+//                                                .height(200.dp)
+//                                        )
+//                                    }
+
                             }
                         }
 
-
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.SpaceBetween,
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-
-                            Text(
-                                text = "author",
-                                fontSize = 17.sp,
-                                fontWeight = FontWeight.Normal,
-                                color = creds.headerTextColor.toColor(),
-                            )
-
-                            Text(
-                                text = item.author,
-                                fontSize = 18.sp,
-                                fontWeight = FontWeight.Medium,
-                                color = creds.authorTextColor.toColor(),
-                            )
-                        }
-
-                        Spacer(Modifier.height(10.dp))
-
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.SpaceBetween,
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-
-                            Text(
-                                text = "video",
-                                fontSize = 17.sp,
-                                fontWeight = FontWeight.Normal,
-                                color = creds.headerTextColor.toColor(),
-                            )
-
-                            Text(
-                                modifier = Modifier
-                                    .clickable {
-                                        runCatching {
-                                            uriHandler.openUri(buildVideoUrl(item, creds.baseUrls))
-                                        }.onFailure { error ->
-                                            Toast.makeText(context, "can't open video", Toast.LENGTH_SHORT).show()
+                        Image(
+                            painter = painterResource(id = R.drawable.ic_play),
+                            contentDescription = null,
+                            contentScale = ContentScale.Fit,
+                            colorFilter = ColorFilter.tint(creds.headerTextColor.toColor()),
+                            modifier = Modifier
+                                .size(64.dp)
+                                .alpha(0.2f)
+                                .clickable {
+                                    runCatching {
+                                        uriHandler.openUri(buildVideoUrl(item, creds.baseUrls))
+                                    }.onFailure { error ->
+                                        Toast.makeText(context, "can't open video", Toast.LENGTH_SHORT).show()
                                     }
                                 },
-                                text = item.videoName,
-                                fontSize = 18.sp,
-                                fontWeight = FontWeight.Medium,
-                                color = creds.videoNameTextColor.toColor(),
-                                textAlign = TextAlign.Center,
-                            )
-                        }
+                        )
 
-                        Spacer(Modifier.height(8.dp))
-//
-//                        Row(
-//                            modifier = Modifier.fillMaxWidth(),
-//                            horizontalArrangement = Arrangement.End,
-//                            verticalAlignment = Alignment.CenterVertically
-//                        ) {
-//
-//                            Box(
-//                                modifier = Modifier
-//                                    .width(70.dp)
-//                                    .height(30.dp)
-//                                    .border(
-//                                        width = 1.dp,
-//                                        color = creds.headerTextColor.toColor()
-//                                    )
-//                                    .background(color = creds.headerColor.toColor(), shape = RoundedCornerShape(8.dp))
-//                                    .clickable {
-//                                        runCatching {
-//                                            uriHandler.openUri(buildVideoUrl(item, creds.baseUrls))
-//                                        }.onFailure { error ->
-//                                            Toast.makeText(context, "can't open video", Toast.LENGTH_SHORT).show()
-//                                        }
-//                                    },
-//                                contentAlignment = Alignment.Center
-//                            ) {
-//                                Icon(
-//                                    imageVector = Icons.Filled.PlayArrow,
-//                                    contentDescription = "Play video",
-//                                    tint = creds.headerTextColor.toColor(),
-//                                )
-//                            }
-
-//                        }
                     }
 
                     HorizontalDivider(
                         color = Color.LightGray,
                         thickness = 1.dp,
-                        modifier = Modifier.padding(bottom = 8.dp)
+                        modifier = Modifier.padding(bottom = 0.dp)
                     )
                 }
             }
