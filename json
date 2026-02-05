@@ -177,7 +177,30 @@
 
 
 
-   
+       {
+           "author": "cycasmotivation",
+           "cat": "world",
+           "platform": "facebook",
+           "videoName": "Wanting nothing gives you everything",
+           "videoId": "1422887458728937",
+           "link": "https://www.facebook.com/reel/1422887458728937"
+       },
+       {
+           "author": "morechrisgriffin",
+           "cat": "world",
+           "platform": "tiktok",
+           "videoName": "Be do have",
+           "videoId": "7424363400358038802",
+           "link": "https://www.tiktok.com/@morechrisgriffin/video/7424363400358038802"
+       },
+       {
+           "author": "jlcowdrey",
+           "cat": "relationship",
+           "platform": "instagram",
+           "videoName": "Backup plan",
+           "videoId": "nVt7DHIJ",
+           "link": "https://www.instagram.com/reel/DR-nVt7DHIJ"
+       },
         {
             "author": "scaramucci",
             "cat": "others",
