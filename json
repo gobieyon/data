@@ -25,7 +25,14 @@
     "items": [
 
 
-        
+        {
+           "author": "jlcowdrey",
+           "cat": "relationship",
+           "platform": "instagram",
+           "videoName": "Backup plan",
+           "videoId": "DR-nVt7DHIJ",
+           "link": "https://www.instagram.com/reel/DR-nVt7DHIJ"
+        },
         {
             "author": "leapwithlo",
             "cat": "self",
@@ -213,14 +220,6 @@
            "videoName": "Be do have",
            "videoId": "7424363400358038802",
            "link": "https://www.tiktok.com/@morechrisgriffin/video/7424363400358038802"
-       },
-       {
-           "author": "jlcowdrey",
-           "cat": "relationship",
-           "platform": "instagram",
-           "videoName": "Backup plan",
-           "videoId": "DR-nVt7DHIJ",
-           "link": "https://www.instagram.com/reel/DR-nVt7DHIJ"
        },
         {
             "author": "scaramucci",
