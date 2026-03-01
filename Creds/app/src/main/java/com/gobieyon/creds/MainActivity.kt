@@ -1,5 +1,6 @@
 package com.gobieyon.creds
 
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -263,63 +264,49 @@ fun Page(
 
                                 }
 
-                                if (item.platform.contains("instagram")) {
-                                    AsyncImage(
-                                        model = "https://www.instagram.com/p/${item.videoId}/media/?size=l",
-                                        contentDescription = null,
-                                        contentScale = ContentScale.Crop,
-                                        modifier = Modifier
-                                            .height(200.dp)
-                                            .aspectRatio(9f / 16f)
-                                    )
-                                } else if (item.platform.contains("youtube")) {
-                                    AsyncImage(
-                                        model = "https://img.youtube.com/vi/${item.credLink}/hqdefault.jpg",
-                                        contentDescription = null,
-                                        contentScale = ContentScale.Crop,
-                                        modifier = Modifier
-                                            .height(200.dp)
-                                            .aspectRatio(9f / 16f)
-                                    )
-                                } else if (item.platform.contains("tiktok")) {
-                                    AsyncImage(
-                                        model = "https://www.instagram.com/p/${credUrlId(item.videoId)}/media/?size=l",
-                                        contentDescription = null,
-                                        contentScale = ContentScale.Crop,
-                                        modifier = Modifier
-                                            .height(200.dp)
-                                            .aspectRatio(9f / 16f)
-                                    )
-                                }  else {
-                                    Box(
-                                        contentAlignment = Alignment.Center,
-                                        modifier = Modifier
-                                            .height(200.dp)
-                                            .aspectRatio(9f / 16f)
-                                            .background(creds.headerColor.toColor())
-                                    ) {
-                                        Image(
-                                            painter = painterResource(id = R.drawable.ic_broken_img),
+                                when {
+                                    item.platform.contains("youtube") -> {
+                                        AsyncImage(
+                                            model = "https://img.youtube.com/vi/${item.credLink}/hqdefault.jpg",
                                             contentDescription = null,
-                                            contentScale = ContentScale.Fit,
-                                            colorFilter = ColorFilter.tint(creds.headerTextColor.toColor()),
-                                            modifier = Modifier.fillMaxSize()
+                                            contentScale = ContentScale.Crop,
+                                            modifier = Modifier
+                                                .height(200.dp)
+                                                .aspectRatio(9f / 16f)
+                                        )
+                                    }
+                                    item.credLink.isBlank() -> {
+                                        Box(
+                                            contentAlignment = Alignment.Center,
+                                            modifier = Modifier
+                                                .height(200.dp)
+                                                .aspectRatio(9f / 16f)
+                                                .background(creds.headerColor.toColor())
+                                        ) {
+                                            Image(
+                                                painter = painterResource(id = R.drawable.ic_broken_img),
+                                                contentDescription = null,
+                                                contentScale = ContentScale.Fit,
+                                                colorFilter = ColorFilter.tint(creds.headerTextColor.toColor()),
+                                                modifier = Modifier.fillMaxSize()
+                                            )
+                                        }
+                                    }
+                                    else -> {
+                                        val videoId = credUrlId(item.credLink)
+
+                                        AsyncImage(
+                                            model = videoId?.let {
+                                                "https://www.instagram.com/p/$it/media/?size=l"
+                                            },
+                                            contentDescription = null,
+                                            contentScale = ContentScale.Crop,
+                                            modifier = Modifier
+                                                .height(200.dp)
+                                                .aspectRatio(9f / 16f)
                                         )
                                     }
                                 }
-
-
-//                                    if (item.platform.contains("facebook")) {
-//                                        AsyncImage(
-//                                            model = "https://graph.facebook.com/${item.videoId}/picture",
-//                                            contentDescription = null,
-//                                            contentScale = ContentScale.Crop,
-//                                            modifier = Modifier
-//                                                .fillMaxWidth()
-//                                                .height(200.dp)
-//                                        )
-//                                    }
-
                             }
                         }
 
@@ -353,10 +340,8 @@ fun Page(
     }
 }
 
-fun credUrlId(url: String): String? {
-    val regex = Regex("""instagram\.com/(?:reel|p)/([A-Za-z0-9_-]+)""")
-    return regex.find(url)?.groupValues?.get(1)
-}
+fun credUrlId(url: String) =
+    Uri.parse(url).pathSegments.dropWhile { it != "reel" }.getOrNull(1)
 
 @Composable
 fun FacebookThumbnail(
