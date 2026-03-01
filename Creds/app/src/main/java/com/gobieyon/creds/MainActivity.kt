@@ -275,6 +275,17 @@ fun Page(
                                                 .aspectRatio(9f / 16f)
                                         )
                                     }
+                                    item.credLink.isBlank() &&
+                                    item.platform.contains("instagram") -> {
+                                        AsyncImage(
+                                            model = "https://www.instagram.com/p/${item.videoId}/media/?size=l",
+                                            contentDescription = null,
+                                            contentScale = ContentScale.Crop,
+                                            modifier = Modifier
+                                                .height(200.dp)
+                                                .aspectRatio(9f / 16f)
+                                        )
+                                    }
                                     item.credLink.isBlank() -> {
                                         Box(
                                             contentAlignment = Alignment.Center,
