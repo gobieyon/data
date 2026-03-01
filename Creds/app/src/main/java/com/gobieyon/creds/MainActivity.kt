@@ -274,14 +274,23 @@ fun Page(
                                     )
                                 } else if (item.platform.contains("youtube")) {
                                     AsyncImage(
-                                        model = "https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg",
+                                        model = "https://img.youtube.com/vi/${item.credLink}/hqdefault.jpg",
                                         contentDescription = null,
                                         contentScale = ContentScale.Crop,
                                         modifier = Modifier
                                             .height(200.dp)
                                             .aspectRatio(9f / 16f)
                                     )
-                                } else {
+                                } else if (item.platform.contains("tiktok")) {
+                                    AsyncImage(
+                                        model = "https://www.instagram.com/p/${credUrlId(item.videoId)}/media/?size=l",
+                                        contentDescription = null,
+                                        contentScale = ContentScale.Crop,
+                                        modifier = Modifier
+                                            .height(200.dp)
+                                            .aspectRatio(9f / 16f)
+                                    )
+                                }  else {
                                     Box(
                                         contentAlignment = Alignment.Center,
                                         modifier = Modifier
@@ -342,6 +351,11 @@ fun Page(
             }
         }
     }
+}
+
+fun credUrlId(url: String): String? {
+    val regex = Regex("""instagram\.com/(?:reel|p)/([A-Za-z0-9_-]+)""")
+    return regex.find(url)?.groupValues?.get(1)
 }
 
 @Composable
