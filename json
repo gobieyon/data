@@ -12,42 +12,107 @@
     "youtubeWatch": "https://www.youtube.com/watch?v=",
     "pinterest": "https://www.pinterest.com/pin/"
   },
-  "catList": [
-    {
-      "cat": "all",
-      "label": "All"
-    },
-    {
-      "cat": "general",
-      "label": "General"
-    },
-    {
-      "cat": "funny",
-      "label": "Funny"
-    },
-    {
-      "cat": "relationship",
-      "label": "Relationship"
-    },
-    {
-      "cat": "communication",
-      "label": "Communication"
-    },
-    {
-      "cat": "self",
-      "label": "Self Awareness"
-    },
-    {
-      "cat": "others",
-      "label": "Social Awareness"
-    },
-    {
-      "cat": "world",
-      "label": "World Awareness"
-    }
+  "catList": [{"cat": "all", "label": "All"},
+    {"cat": "general", "label": "General"},
+    {"cat": "funny", "label": "Funny"},
+    {"cat": "relationship", "label": "Relationship"},
+    {"cat": "communication", "label": "Communication"},
+    {"cat": "self", "label": "Self Awareness"},
+    {"cat": "others", "label": "Social Awareness"},
+    {"cat": "world", "label": "World Awareness"}
   ],
   "items": [
 
+    {
+      "author": "Dr. Jon Dabach",
+      "cat": "relationship",
+      "platform": "facebook",
+      "videoName": "Bids for connection",
+      "videoId": "1222997148957563",
+      "isSameUrl": false,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVHJXp1iGnl/",
+      "link": "https://www.facebook.com/reel/1222997148957563"
+    },
+    {
+      "author": "magnolia_blakk",
+      "cat": "others",
+      "platform": "instagram",
+      "videoName": "I ain't got defend nothing",
+      "videoId": "DTYIdS1jkVr",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVHBRPXCM1w/",
+      "link": "https://www.instagram.com/reel/DTYIdS1jkVr/"
+    },
+    {
+      "author": "nextmovesminepodcast",
+      "cat": "general",
+      "platform": "instagram",
+      "videoName": "What you wish for",
+      "videoId": "DU9FwTJElKV",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVG4U9piEnb/",
+      "link": "https://www.instagram.com/reel/DU9FwTJElKV/"
+    },
+    {
+      "author": "kristenanniebell",
+      "cat": "general",
+      "platform": "instagram",
+      "videoName": "Two conflicting ideas",
+      "videoId": "DR3OstxCC8T",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVG3YzcCIiG/",
+      "link": "https://www.instagram.com/reel/DR3OstxCC8T/"
+    },
+    {
+      "author": "blakemycoskie",
+      "cat": "self",
+      "platform": "instagram",
+      "videoName": "Biggest drug on earth",
+      "videoId": "DUTvq8mkTP_",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVG24SgiLiP/",
+      "link": "https://www.instagram.com/reel/DUTvq8mkTP_/"
+    },
+    {
+      "author": "tobi.you",
+      "cat": "world",
+      "platform": "tiktok",
+      "videoName": "Life has no meaning",
+      "videoId": "7416780613920771360",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVG2ffbCBuf/",
+      "link": "https://www.tiktok.com/@tobi.you/video/7416780613920771360"
+    },
+    {
+      "author": "Steven Bartlett",
+      "cat": "world",
+      "platform": "facebook",
+      "videoName": "Language",
+      "videoId": "1109370007512610",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVGzY9TiBEy/",
+      "link": "https://www.facebook.com/reel/1109370007512610"
+    },
+    {
+      "author": "wave4wealth",
+      "cat": "general",
+      "platform": "instagram",
+      "videoName": "It's the company",
+      "videoId": "DQUBWWwiOsi",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVGwz1DiHoS/",
+      "link": "https://www.instagram.com/reel/DQUBWWwiOsi/"
+    },
+    {
+      "author": "wave4wealth",
+      "cat": "general",
+      "platform": "instagram",
+      "videoName": "It's the company",
+      "videoId": "DQUBWWwiOsi",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVGwz1DiHoS/",
+      "link": "https://www.instagram.com/reel/DQUBWWwiOsi/"
+    },
     {
       "author": "stacked.wealth",
       "cat": "general",
@@ -56,7 +121,7 @@
       "videoId": "DJrlVmMse8Y",
       "isSameUrl": true,
       "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVGu6hlCGkv/",
-      "link": "https://www.instagram.com/reels/DJrlVmMse8Y/"
+      "link": "https://www.instagram.com/reel/DJrlVmMse8Y/"
     },
     {
       "author": "alpha_leaders",
@@ -66,7 +131,7 @@
       "videoId": "DCmV9pnIKSQ",
       "isSameUrl": true,
       "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVFla0YiCjG/",
-      "link": "https://www.instagram.com/reels/DCmV9pnIKSQ/"
+      "link": "https://www.instagram.com/reel/DCmV9pnIKSQ/"
     },
     {
       "author": "salohcin_da_great",
@@ -103,10 +168,10 @@
       "cat": "self",
       "platform": "instagram",
       "videoName": "Where we place our attention ",
-      "videoId": "DS5trKFDuns",
+      "videoId": "DUlYn9Sjo3j",
       "isSameUrl": true,
       "credLink": "https://www.instagram.com/credsvideodiscover/reel/DVB3wVWCGIj/",
-      "link": "https://www.instagram.com/reels/DUlYn9Sjo3j/"
+      "link": "https://www.instagram.com/reel/DUlYn9Sjo3j/"
     },
     {
       "author": "mindbodynina",
