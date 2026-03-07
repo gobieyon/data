@@ -174,12 +174,28 @@ fun Page(
             }
     ) {
 
-        SearchBar(
-            creds = creds,
-            query = searchQuery,
-            onQueryChange = { searchQuery = it },
-            modifier = Modifier.padding(0.dp)
-        )
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(creds.headerColor.toColor()),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            SearchBar(
+                creds = creds,
+                query = searchQuery,
+                onQueryChange = { searchQuery = it },
+                modifier = Modifier
+                    .weight(1f)
+            )
+
+            Text(
+                text = searchedItems.size.toString(),
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Medium,
+                color = creds.authorTextColor.toColor(),
+                modifier = Modifier.padding(end = 8.dp)
+            )
+        }
 
         Tabs(
             creds = creds,
@@ -267,7 +283,7 @@ fun Page(
                                 when {
                                     item.platform.contains("youtube") -> {
                                         AsyncImage(
-                                            model = "https://img.youtube.com/vi/${item.credLink}/hqdefault.jpg",
+                                            model = "https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg",
                                             contentDescription = null,
                                             contentScale = ContentScale.Crop,
                                             modifier = Modifier
