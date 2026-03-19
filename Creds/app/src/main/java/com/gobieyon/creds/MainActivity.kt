@@ -71,6 +71,7 @@ import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.core.view.WindowInsetsControllerCompat
 import coil.compose.AsyncImage
 import com.gobieyon.creds.ui.theme.CatItem
@@ -214,7 +215,7 @@ fun Page(
                 .background(creds.bodyColor.toColor()),
             contentPadding = PaddingValues(vertical = 0.dp)
         ) {
-            itemsIndexed(searchedItems) { _, item ->
+            itemsIndexed(searchedItems) { index, item ->
                 val uriHandler = LocalUriHandler.current
 
                 if (item.author.isNotBlank()) {
@@ -237,35 +238,45 @@ fun Page(
 
                                 Column(
                                     modifier = Modifier
+                                        .padding(end = 10.dp)
                                         .weight(1f),
                                     verticalArrangement = Arrangement.Top
                                 ) {
+
                                     Text(
-                                        text = "Found on page",
-                                        fontSize = 14.sp,
-                                        fontWeight = FontWeight.Medium,
+                                        text = "${(index + 1)}",
+                                        fontSize = 13.sp,
+                                        maxLines = 1,
+                                        overflow = TextOverflow.Ellipsis,
+                                        fontWeight = FontWeight.Normal,
+                                        color = creds.authorTextColor.toColor(),
+                                    )
+
+                                    Text(
+                                        text = item.author,
+                                        fontSize = 13.sp,
+                                        maxLines = 1,
+                                        overflow = TextOverflow.Ellipsis,
+                                        fontWeight = FontWeight.Normal,
                                         color = creds.authorTextColor.toColor(),
                                     )
 
                                     Text(
                                         text = item.platform,
-                                        fontSize = 12.sp,
+                                        fontSize = 13.sp,
+                                        maxLines = 1,
+                                        overflow = TextOverflow.Ellipsis,
                                         fontWeight = FontWeight.Medium,
-                                        color = creds.headerTextColor.toColor(),
-                                    )
-
-                                    Text(
-                                        text = item.author,
-                                        fontSize = 12.sp,
-                                        fontWeight = FontWeight.Normal,
-                                        color = creds.headerTextColor.toColor(),
+                                        color = creds.authorTextColor.toColor(),
                                     )
 
                                     Text(
                                         text = item.videoName,
-                                        fontSize = 12.sp,
+                                        fontSize = 13.sp,
+                                        maxLines = 1,
+                                        overflow = TextOverflow.Ellipsis,
                                         fontWeight = FontWeight.Normal,
-                                        color = creds.headerTextColor.toColor(),
+                                        color = creds.authorTextColor.toColor(),
                                         textAlign = TextAlign.Center,
                                     )
 
@@ -273,9 +284,11 @@ fun Page(
                                         text = creds.catList
                                             .firstOrNull { it.cat == item.cat }
                                             ?.label ?: item.cat,
-                                        fontSize = 12.sp,
+                                        fontSize = 13.sp,
+                                        maxLines = 1,
+                                        overflow = TextOverflow.Ellipsis,
                                         fontWeight = FontWeight.Normal,
-                                        color = creds.headerTextColor.toColor(),
+                                        color = creds.authorTextColor.toColor(),
                                     )
 
                                 }
@@ -337,22 +350,47 @@ fun Page(
                             }
                         }
 
-                        Image(
-                            painter = painterResource(id = R.drawable.ic_play),
-                            contentDescription = null,
-                            contentScale = ContentScale.Fit,
-                            colorFilter = ColorFilter.tint(creds.headerTextColor.toColor()),
-                            modifier = Modifier
-                                .size(64.dp)
-                                .alpha(0.2f)
-                                .clickable {
-                                    runCatching {
-                                        uriHandler.openUri(buildVideoUrl(item, creds.baseUrls))
-                                    }.onFailure { error ->
-                                        Toast.makeText(context, "can't open video", Toast.LENGTH_SHORT).show()
-                                    }
-                                },
-                        )
+                        Row(
+                            modifier = Modifier.fillMaxWidth()
+                                    .align(Alignment.BottomStart)
+                        ) {
+
+                            Text(
+                                text = "author video",
+                                fontSize = 14.sp,
+                                fontWeight = FontWeight.Normal,
+                                color = creds.videoNameTextColor.toColor(),
+                                textAlign = TextAlign.Center,
+                                modifier = Modifier
+                                    .clickable {
+                                        runCatching {
+                                            uriHandler.openUri(buildVideoUrl(item, creds.baseUrls))
+                                        }.onFailure { error ->
+                                            Toast.makeText(context, "can't open video", Toast.LENGTH_SHORT).show()
+                                        }
+                                    },
+                            )
+
+                            Spacer(modifier = Modifier.width(28.dp))
+                            Text(
+                                text = "cred video",
+                                fontSize = 14.sp,
+                                fontWeight = FontWeight.Normal,
+                                color = creds.videoNameTextColor.toColor(),
+                                textAlign = TextAlign.Center,
+                                modifier = Modifier
+                                    .clickable {
+                                        runCatching {
+                                            uriHandler.openUri(item.credLink)
+                                        }.onFailure { error ->
+                                            Toast.makeText(context, "can't open video", Toast.LENGTH_SHORT).show()
+                                        }
+                                    },
+                            )
+
+                        }
+
+
 
                     }
 
@@ -369,50 +407,6 @@ fun Page(
 
 fun credUrlId(url: String) =
     Uri.parse(url).pathSegments.dropWhile { it != "reel" }.getOrNull(1)
-
-@Composable
-fun FacebookThumbnail(
-    videoUrl: String,
-    modifier: Modifier = Modifier
-) {
-    var thumbnail by remember(videoUrl) { mutableStateOf<String?>(null) }
-
-    LaunchedEffect(videoUrl) {
-        thumbnail = fetchFacebookThumbnail(videoUrl)
-    }
-
-    AsyncImage(
-        model = thumbnail ?: R.drawable.ic_launcher_foreground,
-        contentDescription = null,
-        contentScale = ContentScale.Crop,
-        modifier = modifier
-    )
-}
-
-
-suspend fun fetchFacebookThumbnail(videoUrl: String): String? {
-    val client = OkHttpClient()
-
-    val request = Request.Builder()
-        .url("https://www.facebook.com/plugins/video/oembed.json?url=$videoUrl")
-        .header("User-Agent", "Mozilla/5.0")
-        .build()
-
-    return withContext(Dispatchers.IO) {
-        client.newCall(request).execute().use { response ->
-            if (!response.isSuccessful) return@withContext null
-
-            val body = response.body?.string() ?: return@withContext null
-            Regex(""""thumbnail_url":"(.*?)"""")
-                .find(body)
-                ?.groups
-                ?.get(1)
-                ?.value
-                ?.replace("\\/", "/")
-        }
-    }
-}
-
 
 
 
