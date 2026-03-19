@@ -25,7 +25,56 @@
 
 
 
-
+    {
+      "author": "markmanson",
+      "cat": "self",
+      "platform": "instagram",
+      "videoName": "We see what we expect",
+      "videoId": "DTIoq13Dcsr",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWFHJC_ABXo/",
+      "link": "https://www.instagram.com/reel/DTIoq13Dcsr/"
+    },
+    {
+      "author": "michaelsdutra",
+      "cat": "world",
+      "platform": "instagram",
+      "videoName": "Biggest line",
+      "videoId": "CzXJmuBLvmq",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWFFTKUACh6/",
+      "link": "https://www.instagram.com/reel/CzXJmuBLvmq/"
+    },
+    {
+      "author": "@hustlereality",
+      "cat": "self",
+      "platform": "youtubeShorts",
+      "videoName": "Deepest Fear",
+      "videoId": "aGDedhWIJ3g",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWFC7VHgMgy/",
+      "link": "https://www.youtube.com/shorts/aGDedhWIJ3g"
+    },
+    {
+      "author": "charlesbukowski.official",
+      "cat": "relationship",
+      "platform": "instagram",
+      "videoName": "Say what they feel",
+      "videoId": "DF1R-y5TW4N",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWFBeAGAFl6/",
+      "link": "https://www.instagram.com/reel/DF1R-y5TW4N/"
+    },
+    {
+      "author": "realprinceea",
+      "cat": "communication",
+      "platform": "tiktok",
+      "videoName": "Language",
+      "videoId": "7312898108323663150",
+      "isSameUrl": false,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWE_0z8AFO5/",
+      "link": "https://www.tiktok.com/@realprinceea/video/7312898108323663150"
+    },
     {
       "author": "Shyy Sachdev",
       "cat": "self",
@@ -2150,16 +2199,6 @@
       "link": "https://www.youtube.com/shorts/0JgCS6C5OVU"
     },
     {
-      "author": "realprinceea",
-      "cat": "general",
-      "platform": "tiktok",
-      "videoName": "Language",
-      "videoId": "7312898108323663150",
-      "isSameUrl": true,
-      "credLink": "",
-      "link": "https://www.tiktok.com/@realprinceea/video/7312898108323663150"
-    },
-    {
       "author": "movewithus",
       "cat": "others",
       "platform": "instagram",
@@ -2240,16 +2279,6 @@
       "link": "https://www.pinterest.com/pin/70437488146608/"
     },
     {
-      "author": "Ignite Your Growth-16f",
-      "cat": "general",
-      "platform": "youtubeWatch",
-      "videoName": "Says Feel",
-      "videoId": "K9zbhgj80XM",
-      "isSameUrl": true,
-      "credLink": "",
-      "link": "https://www.youtube.com/watch/K9zbhgj80XM"
-    },
-    {
       "author": "Cole Jennette",
       "cat": "communication",
       "platform": "facebook",
@@ -2258,16 +2287,6 @@
       "isSameUrl": true,
       "credLink": "",
       "link": "https://www.facebook.com/reel/24849061401452854"
-    },
-    {
-      "author": "@hustlereality",
-      "cat": "general",
-      "platform": "youtubeShorts",
-      "videoName": "Deepest Fear",
-      "videoId": "aGDedhWIJ3g",
-      "isSameUrl": true,
-      "credLink": "",
-      "link": "https://www.youtube.com/shorts/aGDedhWIJ3g"
     },
     {
       "author": "Steffie Syr Hibaya Gitalan",
@@ -2290,16 +2309,6 @@
       "link": "https://www.facebook.com/reel/1865324130994035"
     },
     {
-      "author": "@ResearcherHub168",
-      "cat": "general",
-      "platform": "youtubeShorts",
-      "videoName": "People Change",
-      "videoId": "_Zms9CMeXfQ",
-      "isSameUrl": true,
-      "credLink": "",
-      "link": "https://www.youtube.com/shorts/_Zms9CMeXfQ"
-    },
-    {
       "author": "theaspenleaf",
       "cat": "general",
       "platform": "facebook",
@@ -2308,16 +2317,6 @@
       "isSameUrl": true,
       "credLink": "",
       "link": "https://www.facebook.com/reel/1293549288595175"
-    },
-    {
-      "author": "MotivaMentum",
-      "cat": "general",
-      "platform": "youtubeWatch",
-      "videoName": "It's simple",
-      "videoId": "sMwy3YtEQxs",
-      "isSameUrl": true,
-      "credLink": "",
-      "link": "https://www.youtube.com/watch/sMwy3YtEQxs"
     },
     {
       "author": "@thelearningsoflife9905",
@@ -2458,16 +2457,6 @@
       "isSameUrl": true,
       "credLink": "",
       "link": "https://www.facebook.com/reel/1812593312716448"
-    },
-    {
-      "author": "markmanson",
-      "cat": "world",
-      "platform": "instagram",
-      "videoName": "We see what we expect",
-      "videoId": "DTIoq13Dcsr",
-      "isSameUrl": true,
-      "credLink": "",
-      "link": "https://www.instagram.com/reel/DTIoq13Dcsr/"
     },
     {
       "author": "MindPsy Guidance",
