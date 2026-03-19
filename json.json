@@ -23,7 +23,56 @@
   ],
   "items": [
 
-
+    {
+      "author": "josiah.thaman_",
+      "cat": "self",
+      "platform": "instagram",
+      "videoName": "Focus in your control",
+      "videoId": "DVTUtyxDIsu",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWCHF3kiGyZ/",
+      "link": "https://www.instagram.com/reel/DVTUtyxDIsu/"
+    },
+    {
+      "author": "the.recovering.narcissist",
+      "cat": "others",
+      "platform": "instagram",
+      "videoName": "Disable a narcissist",
+      "videoId": "DUTXy0AjWGF",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWCFiFxiPMU/",
+      "link": "https://www.instagram.com/reel/DUTXy0AjWGF/"
+    },
+    {
+      "author": "josiah.thaman_",
+      "cat": "relationship",
+      "platform": "instagram",
+      "videoName": "Relationships amplify",
+      "videoId": "DTHg-eeje9t",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWB9hYXiDW8/",
+      "link": "https://www.instagram.com/reel/DTHg-eeje9t/"
+    },
+    {
+      "author": "saacuploads23",
+      "cat": "self",
+      "platform": "instagram",
+      "videoName": "Feelings aren't real",
+      "videoId": "DTJPoWIAa8t",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWB8g2HiARI/",
+      "link": "https://www.instagram.com/reel/DTJPoWIAa8t/"
+    },
+    {
+      "author": "@mindsetmentorpodcast",
+      "cat": "others",
+      "platform": "youtubeShorts",
+      "videoName": "Conversational narcissist",
+      "videoId": "CYqOJ1Gp5mk",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWA27ldCFdX/",
+      "link": "https://www.youtube.com/shorts/CYqOJ1Gp5mk"
+    },
     {
       "author": "deanwlin",
       "cat": "others",
@@ -1546,16 +1595,6 @@
       "isSameUrl": true,
       "credLink": "",
       "link": "https://www.instagram.com/reel/DB_kWUIsPJ9/"
-    },
-    {
-      "author": "The Mindset Mentor Podcast",
-      "cat": "communication",
-      "platform": "youtubeShorts",
-      "videoName": "Conversational narcissist",
-      "videoId": "CYqOJ1Gp5mk",
-      "isSameUrl": true,
-      "credLink": "",
-      "link": "https://www.youtube.com/shorts/CYqOJ1Gp5mk"
     },
     {
       "author": "rabid_app",
