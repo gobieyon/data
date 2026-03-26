@@ -26,6 +26,47 @@
 
 
 
+
+    {
+      "author": "sofia.zianii",
+      "cat": "world",
+      "platform": "instagram",
+      "videoName": "Success exponential",
+      "videoId": "DVO2ISRkqyo",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWWgC12CNys/",
+      "link": "https://www.instagram.com/reels/DVO2ISRkqyo/"
+    },
+    {
+      "author": "deanwlin",
+      "cat": "others",
+      "platform": "tiktok",
+      "videoName": "They're just around",
+      "videoId": "7610881267835424030",
+      "isSameUrl": false,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWWW6cwCO4B/",
+      "link": "https://www.tiktok.com/@deanwlin/video/7610881267835424030"
+    },
+    {
+      "author": "aarondoughty44",
+      "cat": "others",
+      "platform": "instagram",
+      "videoName": "We project meaning",
+      "videoId": "DVy2F-jAf5c",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWWHm3WiJUh/",
+      "link": "https://www.instagram.com/reels/DVy2F-jAf5c/"
+    },
+    {
+      "author": "inthe.cave",
+      "cat": "self",
+      "platform": "instagram",
+      "videoName": "Mind realigning",
+      "videoId": "DR5N7zmjNlp",
+      "isSameUrl": true,
+      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWWCzGTCGyM/",
+      "link": "https://www.instagram.com/reels/DR5N7zmjNlp/"
+    },
     {
       "author": "lady.sambray",
       "cat": "self",
@@ -365,16 +406,6 @@
       "isSameUrl": true,
       "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWA27ldCFdX/",
       "link": "https://www.youtube.com/shorts/CYqOJ1Gp5mk"
-    },
-    {
-      "author": "deanwlin",
-      "cat": "others",
-      "platform": "tiktok",
-      "videoName": "They're just around",
-      "videoId": "7610881267835424030",
-      "isSameUrl": false,
-      "credLink": "https://www.instagram.com/credsvideodiscover/reel/DWAzPeaCH2S/",
-      "link": "https://www.tiktok.com/@deanwlin/video/7610881267835424030"
     },
     {
       "author": "taliabreyer",
