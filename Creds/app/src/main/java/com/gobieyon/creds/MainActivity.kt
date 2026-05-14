@@ -91,20 +91,21 @@ class MainActivity : ComponentActivity() {
 
                 LaunchedEffect(Unit) {
                     val primaryUrl = "https://raw.githubusercontent.com/gobieyon/data/main/json.json"
-                    val fallbackUrl = "https://raw.githubusercontent.com/gobieyon/data/main/json"
 
                     try {
                         val json = withContext(Dispatchers.IO) {
-                            try {
-                                URL(primaryUrl).readText()
-                            } catch (e: Exception) {
-                                URL(fallbackUrl).readText()
-                            }
+                            URL(primaryUrl).readText()
                         }
+
                         creds = Gson().fromJson(json, Creds::class.java)
+
                     } catch (e: Exception) {
                         withContext(Dispatchers.Main) {
-                            Toast.makeText(this@MainActivity, "Can't load data", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(
+                                this@MainActivity,
+                                "Can't load data",
+                                Toast.LENGTH_SHORT
+                            ).show()
                         }
                     }
                 }
